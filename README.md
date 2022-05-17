@@ -1,6 +1,6 @@
 # Poetry Demo
 
-This demonstrates a Poetry Project as a CLI
+This demonstrates a Poetry Project as a CLI, with a local library for modularity.
 
 ## Installing the CLI
 
