@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "poetry-demo"
+version = "0.0.1"
+description = ""
+authors = ["cnuss"]
+packages = [
+    { include = "poetry_demo", from = "." },
+    { include = "mylib", from = "." },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+autopep8 = "^1"
+
+[tool.poetry.scripts]
+poetry-demo = "poetry_demo:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
