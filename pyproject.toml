@@ -13,8 +13,8 @@ python = "^3.9"
 requests = "2.27.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
 autopep8 = "^1"
+pytest = "^7.1.2"
 
 [tool.poetry.scripts]
 poetry-demo = "poetry_demo:main"

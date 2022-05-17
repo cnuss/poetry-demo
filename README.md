@@ -7,7 +7,7 @@ This demonstrates a Poetry Project as a CLI, with a local library for modularity
 ```
 python -mvenv .venv
 source .venv/bin/activate
-pip install git+git@github.com:cnuss/poetry-demo.git
+pip install git+https://github.com:cnuss/poetry-demo.git
 ./.venv/bin/poetry-demo
 ```
 
@@ -25,6 +25,13 @@ poetry run poetry-demo
 poetry config virtualenvs.in-project true
 poetry shell
 code .
+```
+
+### Testing
+
+```
+poetry install
+poetry run pytest
 ```
 
 Then, select the right Intrepeter on the bottom right in the blue bar.
