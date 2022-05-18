@@ -9,7 +9,7 @@ This demonstrates a Poetry Project as a CLI, with a local library for modularity
 - Poetry
   - Auto-installed using `install_requires` in [setup.cfg](./setup.cfg)
 
-## Installing the CLI
+## Installing the script
 
 ```
 python -mvenv .venv
