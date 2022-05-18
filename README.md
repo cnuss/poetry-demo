@@ -23,7 +23,21 @@ Secret sauce:
 - a [requirements.txt](./requirements.txt) that references `./`
 - `[tool.poetry.scripts]` in [pyproject.toml](./pyproject.toml)
 
-## Developing the CLI
+### Without venvs, in docker...
+
+```
+docker run -it python:3.9-slim bash
+apt-get update && apt-get install git
+pip install git+https://github.com/cnuss/poetry-demo
+```
+
+Then run the installed script globally:
+
+```
+poetry-demo
+```
+
+## Developing
 
 ### Running
 
