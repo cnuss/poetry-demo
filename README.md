@@ -1,6 +1,15 @@
 # Poetry Demo
 
-This demonstrates a Poetry Project as a CLI, with a local library for modularity.
+This demonstrates a Poetry Project installed ad a script, with a local library for modularity.
+
+Secret Sauce:
+
+- `packages = [...]` defined in [pyproject.toml](./pyproject.toml)
+  - so modular libraries can be defined
+- a [requirements.txt](./requirements.txt) that references `./`
+  - so a `pip install` works
+- `[tool.poetry.scripts]` in [pyproject.toml](./pyproject.toml)
+  - creates a `poetry-demo` bin-link on `pip install`
 
 ## Requires
 
