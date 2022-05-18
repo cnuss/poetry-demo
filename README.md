@@ -27,7 +27,7 @@ Secret sauce:
 
 ```
 docker run -it python:3.9-slim bash
-apt-get update && apt-get install git
+apt-get update && apt-get install -y git
 pip install git+https://github.com/cnuss/poetry-demo
 ```
 
@@ -39,9 +39,16 @@ poetry-demo
 
 ## Developing
 
+First, install poetry:
+
+```
+pip install poetry
+```
+
 ### Running
 
 ```
+poetry install
 poetry run poetry-demo
 ```
 
