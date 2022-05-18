@@ -21,6 +21,7 @@ pip install git+https://github.com/cnuss/poetry-demo
 Secret sauce:
 
 - a [requirements.txt](./requirements.txt) that references `./`
+- `[tool.poetry.scripts]` in [pyproject.toml](./pyproject.toml)
 
 ## Developing the CLI
 
